@@ -55,4 +55,22 @@ The coordination mechanism minimizes total travel time deviation for passengers 
    ```bash
    sudo apt install nodejs npm
 
+Clone the Repository:
+
+
+git clone https://github.com/your-repo/blockchain-carpooling.git
+cd blockchain-carpooling
+
+Install Dependencies:
+npm install
+Run Tests:
+
+
+npx hardhat test
+Deploy Contracts: Update the hardhat.config.js file with your network details and run:
+
+
+npx hardhat run scripts/deploy.js --network <network-name>
+
+
 
